@@ -29,6 +29,9 @@ function App() {
         <Nav.Item>
           <Nav.Link eventKey="fourth">Realizar Diagnóstico</Nav.Link>
         </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="fifth">Mas Información</Nav.Link>
+        </Nav.Item>
       </Nav>
     </Col>
     <Col sm={9}>
@@ -37,7 +40,16 @@ function App() {
           <Home/>
         </Tab.Pane>
         <Tab.Pane eventKey="second">
-         
+        <Home/>
+        </Tab.Pane>
+        <Tab.Pane eventKey="third">
+        <Home/>
+        </Tab.Pane>
+        <Tab.Pane eventKey="fourth">
+        <Home/>
+        </Tab.Pane>
+        <Tab.Pane eventKey="fifth">
+        <Home/>
         </Tab.Pane>
       </Tab.Content>
     </Col>

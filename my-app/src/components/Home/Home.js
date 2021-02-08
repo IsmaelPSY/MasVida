@@ -3,7 +3,7 @@ import '../../assets/css/Home.css';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 
-import logo from '../../assets/images/Liz.png';
+import logo from '../../assets/images/descarga.png';
 
 
 
