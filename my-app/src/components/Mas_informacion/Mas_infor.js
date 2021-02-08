@@ -11,12 +11,11 @@ class Mas_info extends React.Component{
   render(){
     return(
     <div className="Mas_info">
-      <h1 class="Titulo">Mantengámonos Informados</h1>
       <section class="MasInformacion">
             <div class="Noticias">
-              <Container>
-                <Image className="logo" src={logo1}/>
-              </Container>
+            <Container>
+                <Image className="logo1" src={logo1}/>
+            </Container>
                 <div class="contenido">
                     <p>INS DETECTÓ LA PRESENCIA DE LA VARIANTE BRASILEÑA EN LORETO, HUÁNUCO Y LIMA</p>
                     <a href="https://www.diariomedico.pe/?p=15433">Mas Información</a>    
