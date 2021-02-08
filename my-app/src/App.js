@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 //Componentes
 import Home from './components/Home/Home';
+import Mas_info from './components/Mas_informacion/Mas_infor'
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
         <Home/>
         </Tab.Pane>
         <Tab.Pane eventKey="fifth">
-        <Home/>
+        <Mas_info/>
         </Tab.Pane>
       </Tab.Content>
     </Col>
